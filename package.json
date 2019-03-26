@@ -2,7 +2,7 @@
   "name": "twitter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/zeyadetman/twitter-client",
+  "homepage": "https://zeyadetman.github.io/twitter-client/",
   "dependencies": {
     "apollo-boost": "^0.3.1",
     "gh-pages": "^2.0.1",
