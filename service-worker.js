@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/zeyadetman/twitter-client/precache-manifest.c071338927414736413912bc7b6813a4.js"
+  "/twitter-client/precache-manifest.0f63e72226f47811080c5900bdea1802.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/zeyadetman/twitter-client/index.html", {
+workbox.routing.registerNavigationRoute("/twitter-client/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
